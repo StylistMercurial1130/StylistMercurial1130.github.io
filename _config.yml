@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Venkatesh Karthik"
-  avatar : "/assets/images/favicon-32x32.png"
+  avatar : "/assets/images/space_invader.png"
   bio    : "Professional rabit hole diver, will try deep dive into anything, don't tempt me."
   links:
     - label: "GitHub"
