@@ -17,7 +17,7 @@ Once the memtables have reched a certain capacity, they are flushed to the disk.
 
 As more and more data is flushed to disk the SS Tables are stored in levels where each level contains ss tables that are compact than the levels above. 
 
-![LSM Tree](./Untitled%20Diagram.drawio.png)
+![LSM Tree](/assets/images/Untitled%20Diagram.drawio.png){: .align-center}
 
 ## The Key-Value Store
 
@@ -25,6 +25,6 @@ The LSM Tree is going to be the storage engine for the key value store that is g
 
 The layer above is where the key value store will sit, this is what is going to responsible for actually exposing the key-value store facilities to the outside user. 
 
-![LSM Tree](./key-value-store-architecture.png)
+![LSM Tree](/assets/images/key-value-store-architecture.png)
 
 In the Next part we shall be bringing this thing to life. Stay tuned for that, its going to exciting!
