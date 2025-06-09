@@ -25,6 +25,6 @@ The LSM Tree is going to be the storage engine for the key value store that is g
 
 The layer above is where the key value store will sit, this is what is going to responsible for actually exposing the key-value store facilities to the outside user. 
 
-![LSM Tree](/assets/images/key-value-store-architecture.png)
+![LSM Tree](/assets/images/key-value-store-architecture.png){: .align-center}
 
 In the Next part we shall be bringing this thing to life. Stay tuned for that, its going to exciting!
