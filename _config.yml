@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A common repository for my thoughts in form of blogposts and also a place where I can 
   write about stuff that I find awesome.
 github_username: StylistMercurial1130 
-minimal_mistakes_skin: "dark" 
+minimal_mistakes_skin: "contrast" 
 search: true
 
 # Build settings
