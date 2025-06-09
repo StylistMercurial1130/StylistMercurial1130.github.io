@@ -57,9 +57,7 @@ The First "Oh, no" case. Lets say we insert the elements 1,2,3 in the following 
 1. {3, 2, 1}
 2. {3, 1, 2}
 
-<p align="center">
-  <img src="./rotation_senarion_one.png" alt="left rotaation scenario">
-</p>
+![left rotation scenario](./rotation_senarion_one.png)
 
 the balance factor at node 3 in (1) and (2) is going to be 3, which is greater than 1 so here here we have what I like to call a **left bias** scenarios.
 
@@ -87,9 +85,7 @@ func leftRotation[V any](current *node[V]) *node[V] {
 
 Its almost like you are attaching a rope to the root node node and pulling it down to the left side. The Tree is going to look like something like this. 
 
-<p align="center">
-  <img src="./left_rotation_result.png" alt="left rotation result">
-</p>
+![left rotation result](./left_rotation_result.png)
 
 Look at that we have gotten (1) from (2), now here we apply the right rotation at 3. 
 
@@ -110,9 +106,8 @@ func rightRotation[V any](current *node[V]) *node[V] {
 1. take the left side of the sub tree and move that one level up
 2. Take the parent to the right side and move that down one level down to the right
 
-<p align="center">
-  <img src="right_rotation_result.png" alt="right rotation result">
-</p>
+
+![right rotation result](./right_rotation_result.png)
 
 and here we go, tree balanced, danger averted. 
 
@@ -120,15 +115,11 @@ Now lets take the scenario in whic the balance factor is negative, or what I lik
 
 Lets say we insert the elements 10, 20 and 30 in the order {10, 30, 20} we would have a tree like this
 
-<p align="center">
-  <img src="./RL_Scenario.png" alt="RL scenario">
-</p>
+![RL scenario](./RL_Scenario.png)
 
 Now we apply first a **right rotation** at 30 and then a **left rotation** at 10.
 
-<p align="center">
-  <img src="./RL_Rotation_Result.png" alt="RL scenario">
-</p>
+![RL Result](./RL_Rotation_Result.png)
 
 overall the rotation should go something like this 
 
