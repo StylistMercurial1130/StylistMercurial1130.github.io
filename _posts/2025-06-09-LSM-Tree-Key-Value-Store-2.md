@@ -2,8 +2,6 @@
 title: "LSM Tree based key value store part 2"
 tags: Database Algorithms
 ---
-# LSM Tree Based KeyValue Store 2
-
 We have the plan ready, we know what have to do, so lets get into the meat of things. To continue where we left of in [LSM Tree Based KeyValue Store 1](./2025-06-09-LSM-Tree-Key-Value-Store-1.md), we had established what the key-value store is going to look like. So Now lets put that into implementation. We are going to developing this from bottom up, so lets start with the storage engine.
 
 ## The Storage Engine

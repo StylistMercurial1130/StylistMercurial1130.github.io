@@ -2,9 +2,6 @@
 title: "LSM Tree based key value store part 1"
 tags: Database Algorithms
 ---
-
-# LSM Tree Based KeyValue Store 1 
-
 As I was swimming around in the vast cosmos known as youtube, I had come across this absolutely amazing playlist of lectures on database internals (check [this](https://www.youtube.com/watch?v=otE2WvX3XdQ&list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq) out, it is really cool), I had come across the section on LSM or **Log Structured Merge Tree**. This a storge mechanism used in storage engines as part of database management systems which is an append only log of PUT or DELETE operations, and it got me wondering. What if I were to create a key value store that is backed by a LSM based storage engine ? how would that work ? how would that perform ?
 
 Now ofcourse I could answer that question by simply just asking that question on reddit or ChatGPT, but wher eis the fun in that ? So no, I shall be embarking on the journey on my own and answer that question by myself. I am going to be deep diving into this rabbit hole guns blazing. It's going to be gritty, it's going to messy, there will be times I might regret, but it won't be boring. So I'm going to be jumping into this hellhole like I am the [doom slayer](https://doom.fandom.com/wiki/Doom_Slayer) and I am going to be making my own barely acceptable and hopefully functioning key value store which persists to disk using a LSM Tree based storage engine in Golang.
